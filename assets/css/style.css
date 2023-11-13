@@ -17,6 +17,9 @@ div{
  section{
     margin-bottom: 1%;
  }
+article{
+    margin-bottom: 1%;
+}
 
 /* Banner  */
 nav{
@@ -39,14 +42,40 @@ nav{
     color: rgba(128, 128, 128, 0.7);
  }
  
-
  /* Photo  */
  #img{
     font-size: small;
  }
 
  /* Article  */
-
  .marked{
     background-color: yellow;
  }
+
+ /* List */
+ ul{
+    margin-left: 1%;
+ }
+
+ /* Table */
+ table{
+    border-collapse: collapse;
+ }
+ thead{
+    text-align: left;
+    background-color: lightskyblue;
+    color: white;
+ }
+ .td1{
+    width: 25%;
+ }
+ .td2{
+    width: 50%;
+ }
+ .dispari{
+    background-color: lightblue;
+ }
+ .pari{
+    background-color: aliceblue;
+ }
+ 
